@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 40vw;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    font-family: cursive;
+}
+input,button{
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius:10px ;
+}
+button{
+    background-color: aqua;
+}
