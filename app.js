@@ -6,7 +6,7 @@ let users=JSON.parse(localStorage.getItem("users"));
 let findusers= users.find(user=> user.username==inputs[0].value&& user.password==inputs[1].value);
  if (findusers) {
     alert("giris uqurludur😊")
-    window.location.href="index.html";
+    window.location.href="ana.html";
  } else {
     alert("users tapilmadi😊")
  }

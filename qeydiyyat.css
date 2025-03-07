@@ -11,7 +11,7 @@ form{
     padding: 50px;
     margin: 50px auto;
     text-align: center;
-  height: 500px;
+  height: 600px;
     border-radius: 20px;
     font-family: cursive;
     border-radius: 20px;
@@ -22,10 +22,9 @@ input,button{
     margin: 20px auto;
     padding: 15px;
     border-radius:10px ;
-
 }
 button{
-    background-color: aqua;
+    background-color: aqua;
 }
 i{
     color: green;
