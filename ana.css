@@ -254,42 +254,46 @@ i {
     color: white;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.footer-links {
-    background-color: black;
+.footer {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #121212;
+}
+.footer-column {
+    margin: 10px;
+}
+.footer-column h3 {
+    font-size: 16px;
+}
+.footer-column a {
+    display: block;
+    color: #bbb;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer-column a:hover {
+    color: white;
+}
+.download-button {
+    background-color: #25D366;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.download-button:hover {
+    background-color: #1ebe5d;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
     margin-top: 20px;
 }
-
-.footer-links p:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-.buttons button {
-    background-color: black;
-    border: 2px solid white;
-    width: 50px;
-    height: 50px;
+.social-icons a {
+    background: #333;
+    padding: 10px;
     border-radius: 50%;
-    margin: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.buttons button:hover {
-    background-color: green;
-    border: none;
 }
