@@ -259,41 +259,53 @@ i {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: #121212;
+    background-color: black;
 }
 .footer-column {
+    background-color: black;
     margin: 10px;
 }
 .footer-column h3 {
+    background-color: black;
+    color: white;
     font-size: 16px;
 }
 .footer-column a {
+    background-color: black;
     display: block;
-    color: #bbb;
+    color: grey;
     text-decoration: none;
     margin: 5px 0;
 }
 .footer-column a:hover {
     color: white;
 }
-.download-button {
+#downloadBtn{
     background-color: #25D366;
     color: black;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     display: inline-block;
     margin: 20px 0;
 }
-.download-button:hover {
+#downloadBtn:hover {
     background-color: #1ebe5d;
 }
 .social-icons {
+    background-color: black;
     display: flex;
     gap: 10px;
     margin-top: 20px;
 }
-.social-icons a {
-    background: #333;
+.social-icons button {
+    background: black;
     padding: 10px;
     border-radius: 50%;
+}
+.bir{
+    background-color: black;
+}
+.bir h2{
+    background-color: black;
+    color: white;
 }
