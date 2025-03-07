@@ -187,4 +187,167 @@ i {
     display: flex;
 }
 
+.divBir{
+    display: inline;
+    padding: 50px;
+    position: absolute;
+    left: 900px;
+    bottom: 200px;
+    background-color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 350px;
+}
+.container{
+    background-color: rgb(142, 243, 142);
+    height: 900px;
+    width: 1890px;
+}
+.divIki{
+    display: inline;
+    padding: 50px;
+    position: absolute;
+    left: 1400px;
+    bottom: 200px;
+    background-color: white;
+    border-radius: 30px;
+    width: 300px;
+}
+button{
+    border-radius: 100px;
+    border: black 1px solid;
+    background-color: white;
+width: 100px;
+height: 50px;
+}
+b{
+    font-size: 50px;
+    position: absolute;
+    bottom: 500px;
+}
+.p{
+    position: absolute;
+    bottom: 400px;
+    font-size: 20px;
+}
+.bilgi button{
+    position: relative;
+    top: 600px;
+    width: 50px;
+    transition: 1s;
+}
+footer{
+    background-color: black;
+    color: white;
+  height: 500px;  
+}
+footer button{
+    background-color: rgb(0, 143, 0);
+    color: white;
+}
+small{
+    display: block;
+}
+.link{
+    position: absolute;
+    left: 300px;
+}
+.linkIki{
+    position: absolute;
+    left: 500px;
+}
+.linkUc{
+    position: absolute;
+    left: 800px;
+}
+.linkDord{
+    position: absolute;
+    left: 1000px;
+}
+footer p{
+    font-size: 20px;
+}
+footer p:hover{
+text-decoration: underline;
+}
+.container button:hover{
+background-color: black;
+color: white;
+}
+.smallBir{
+    position: absolute;
+    left: 300px;
+}
+.smallIki{
+    position: absolute;
+    left: 500px;
+}
+.smallUc{
+    position: absolute;
+    left: 800px;
+}
+.small *:hover{
+    text-decoration: underline;
+}
+.buttons button{
+    background-color: black;
+    border: 2px solid white;
+    transition: 2s;
+}
+.buttons button:hover{
+    border: none;
+    background-color: green;
 
+}
+.buttonBir{
+    position: absolute;
+    left: 500px;
+    top: 1300px;
+}
+.buttonIki{
+    position: absolute;
+    left: 625px;
+    top: 1300px;
+}
+.buttonUc{
+    position: absolute;
+    left: 750px;
+    top: 1300px;
+}
+.buttonDord{
+    position: absolute;
+    left: 875px;
+    top: 1300px;
+}
+.container div{
+    transition: 2s;
+}
+.divUc{
+    display: none;
+    padding: 50px;
+    position: absolute;
+    left: 900px;
+    bottom: 200px;
+    background-color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 350px;
+}
+.divDord{
+    display: none;
+    padding: 50px;
+    position: absolute;
+    left: 1400px;
+    bottom: 200px;
+    background-color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 350px;
+}
+.indir{
+    transition: 2s;
+}
+.indir:hover{
+    background-color: white;
+    color: black;
+}
