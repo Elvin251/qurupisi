@@ -298,9 +298,10 @@ i {
     margin-top: 20px;
 }
 .social-icons button {
-    background: black;
-    padding: 10px;
-    border-radius: 50%;
+   background-color: black;
+   padding: 0;
+   border: none;
+   margin-left: 20px;
 }
 .bir{
     background-color: black;
