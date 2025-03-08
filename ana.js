@@ -19,6 +19,7 @@ function changeNormal() {
 }
 next.addEventListener("click",change)
 before.addEventListener("click",changeNormal)
+
 document.getElementById("downloadBtn").addEventListener("click", function() {
     const link = document.createElement("a");
     link.href = "file.pdf"; 
