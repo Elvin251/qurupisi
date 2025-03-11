@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat UI</title>
+    <link rel="stylesheet" href="ana6.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="sidebar">
+            <div class="search-bar">
+                <input type="text" placeholder="Search or start a new chat...">
+            </div>
+            <div class="chat-list">
+                <div class="chat-item active">
+                    <img src="" alt="User">
+                    <div class="chat-info">
+                        <h4>John Doe</h4>
+                        <p>Last message...</p>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="" alt="User">
+                    <div class="chat-info">
+                        <h4>Jane Smith</h4>
+                        <p>Hey there!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-box">
+            <div class="chat-header">
+                <h3>John Doe</h3>
+            </div>
+            <div class="chat-messages">
+                <div class="message received">Hey! How's it going?</div>
+                <div class="message sent">I'm good, how about you?</div>
+            </div>
+            <div class="chat-input">
+                <input type="text"   class="textinput" placeholder="Type a message...">
+                <button  onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="ana6.js"></script>
+</body>
+</html>
